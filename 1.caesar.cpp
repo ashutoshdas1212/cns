@@ -27,8 +27,12 @@ string encrypt(string text, int s)
 // Driver program to test the above function
 int main()
 {
-	string text = "ATTACKATONCE";
-	int s = 4;
+//	string text = "ATTACKATONCE";
+string text;
+cin>>text;
+
+	int s ;
+	cin>>s;
 	cout << "Text : " << text;
 	cout << "\nShift: " << s;
 	cout << "\nCipher: " << encrypt(text, s);
