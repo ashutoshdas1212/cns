@@ -3,16 +3,16 @@
 
 using namespace std;
 
-// int gcd(int a, int b) {
-//   int t;
-//   while (1) {
-//     t = a % b;
-//     if (t == 0)
-//       return b;
-//     a = b;
-//     b = t;
-//   }
-// }
+int gcd(int a, int b) {
+  int t;
+  while (1) {
+    t = a % b;
+    if (t == 0)
+      return b;
+    a = b;
+    b = t;
+  }
+}
 
 int main() {
   // 2 random prime numbers

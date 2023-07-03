@@ -72,10 +72,14 @@ string encode(string message, char matrix[5][5]) {
 
 int main() {
     char matrix[5][5];
-    string key = "EXAMPLEKEY";
+//string key = "EXAMPLEKEY";
+  string key;
+  cin>>key;
     generateMatrix(key, matrix);
 
-    string message = "HELLO WORLD";
+    //string message = "HELLO WORLD";
+    string message;
+    cin>>message;
     string encoded = encode(message, matrix);
 
     cout << "Original message: " << message << endl;
