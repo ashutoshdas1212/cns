@@ -29,8 +29,8 @@ void generateMatrix(string key, char matrix[5][5]) {
 // Function to encode a message using Playfair cipher
 string encode(string message, char matrix[5][5]) {
     // remove spaces and convert to uppercase
-    message.erase(remove_if(message.begin(), message.end(), ::isspace), message.end());
-    transform(message.begin(), message.end(), message.begin(), ::toupper);
+   // message.erase(remove_if(message.begin(), message.end(), ::isspace), message.end());
+ //   transform(message.begin(), message.end(), message.begin(), ::toupper);
 
     // add padding if necessary
     if (message.length() % 2 != 0) message += 'X';
