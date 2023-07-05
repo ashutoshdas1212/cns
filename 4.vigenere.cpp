@@ -55,5 +55,7 @@ int main() {
     std::string decrypted = vigenereDecrypt(encrypted, key);
     std::cout << "Decrypted text: " << decrypted << std::endl;
 
+    
+
     return 0;
 }
